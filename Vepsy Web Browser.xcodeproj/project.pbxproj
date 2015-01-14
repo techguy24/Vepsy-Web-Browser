@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B60045D71A65EE3F0024A8D6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B60045D61A65EE3F0024A8D6 /* AppDelegate.m */; };
+		B60045D91A65EE3F0024A8D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B60045D81A65EE3F0024A8D6 /* main.m */; };
+		B60045DB1A65EE3F0024A8D6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B60045DA1A65EE3F0024A8D6 /* Images.xcassets */; };
+		B60045DE1A65EE3F0024A8D6 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B60045DC1A65EE3F0024A8D6 /* MainMenu.xib */; };
+		B60045EA1A65EE3F0024A8D6 /* Vepsy_Web_BrowserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B60045E91A65EE3F0024A8D6 /* Vepsy_Web_BrowserTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B60045E41A65EE3F0024A8D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B60045C81A65EE3F0024A8D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B60045CF1A65EE3F0024A8D6;
+			remoteInfo = "Vepsy Web Browser";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B60045D01A65EE3F0024A8D6 /* Vepsy Web Browser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vepsy Web Browser.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B60045D41A65EE3F0024A8D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B60045D51A65EE3F0024A8D6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B60045D61A65EE3F0024A8D6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B60045D81A65EE3F0024A8D6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B60045DA1A65EE3F0024A8D6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B60045DD1A65EE3F0024A8D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		B60045E31A65EE3F0024A8D6 /* Vepsy Web BrowserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Vepsy Web BrowserTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B60045E81A65EE3F0024A8D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B60045E91A65EE3F0024A8D6 /* Vepsy_Web_BrowserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Vepsy_Web_BrowserTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B60045CD1A65EE3F0024A8D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B60045E01A65EE3F0024A8D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B60045C71A65EE3F0024A8D6 = {
+			isa = PBXGroup;
+			children = (
+				B60045D21A65EE3F0024A8D6 /* Vepsy Web Browser */,
+				B60045E61A65EE3F0024A8D6 /* Vepsy Web BrowserTests */,
+				B60045D11A65EE3F0024A8D6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B60045D11A65EE3F0024A8D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B60045D01A65EE3F0024A8D6 /* Vepsy Web Browser.app */,
+				B60045E31A65EE3F0024A8D6 /* Vepsy Web BrowserTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B60045D21A65EE3F0024A8D6 /* Vepsy Web Browser */ = {
+			isa = PBXGroup;
+			children = (
+				B60045D51A65EE3F0024A8D6 /* AppDelegate.h */,
+				B60045D61A65EE3F0024A8D6 /* AppDelegate.m */,
+				B60045DA1A65EE3F0024A8D6 /* Images.xcassets */,
+				B60045DC1A65EE3F0024A8D6 /* MainMenu.xib */,
+				B60045D31A65EE3F0024A8D6 /* Supporting Files */,
+			);
+			path = "Vepsy Web Browser";
+			sourceTree = "<group>";
+		};
+		B60045D31A65EE3F0024A8D6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B60045D41A65EE3F0024A8D6 /* Info.plist */,
+				B60045D81A65EE3F0024A8D6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B60045E61A65EE3F0024A8D6 /* Vepsy Web BrowserTests */ = {
+			isa = PBXGroup;
+			children = (
+				B60045E91A65EE3F0024A8D6 /* Vepsy_Web_BrowserTests.m */,
+				B60045E71A65EE3F0024A8D6 /* Supporting Files */,
+			);
+			path = "Vepsy Web BrowserTests";
+			sourceTree = "<group>";
+		};
+		B60045E71A65EE3F0024A8D6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B60045E81A65EE3F0024A8D6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B60045CF1A65EE3F0024A8D6 /* Vepsy Web Browser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B60045ED1A65EE3F0024A8D6 /* Build configuration list for PBXNativeTarget "Vepsy Web Browser" */;
+			buildPhases = (
+				B60045CC1A65EE3F0024A8D6 /* Sources */,
+				B60045CD1A65EE3F0024A8D6 /* Frameworks */,
+				B60045CE1A65EE3F0024A8D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Vepsy Web Browser";
+			productName = "Vepsy Web Browser";
+			productReference = B60045D01A65EE3F0024A8D6 /* Vepsy Web Browser.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B60045E21A65EE3F0024A8D6 /* Vepsy Web BrowserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B60045F01A65EE3F0024A8D6 /* Build configuration list for PBXNativeTarget "Vepsy Web BrowserTests" */;
+			buildPhases = (
+				B60045DF1A65EE3F0024A8D6 /* Sources */,
+				B60045E01A65EE3F0024A8D6 /* Frameworks */,
+				B60045E11A65EE3F0024A8D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B60045E51A65EE3F0024A8D6 /* PBXTargetDependency */,
+			);
+			name = "Vepsy Web BrowserTests";
+			productName = "Vepsy Web BrowserTests";
+			productReference = B60045E31A65EE3F0024A8D6 /* Vepsy Web BrowserTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B60045C81A65EE3F0024A8D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Orange Labs";
+				TargetAttributes = {
+					B60045CF1A65EE3F0024A8D6 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					B60045E21A65EE3F0024A8D6 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = B60045CF1A65EE3F0024A8D6;
+					};
+				};
+			};
+			buildConfigurationList = B60045CB1A65EE3F0024A8D6 /* Build configuration list for PBXProject "Vepsy Web Browser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B60045C71A65EE3F0024A8D6;
+			productRefGroup = B60045D11A65EE3F0024A8D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B60045CF1A65EE3F0024A8D6 /* Vepsy Web Browser */,
+				B60045E21A65EE3F0024A8D6 /* Vepsy Web BrowserTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B60045CE1A65EE3F0024A8D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B60045DB1A65EE3F0024A8D6 /* Images.xcassets in Resources */,
+				B60045DE1A65EE3F0024A8D6 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B60045E11A65EE3F0024A8D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B60045CC1A65EE3F0024A8D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B60045D91A65EE3F0024A8D6 /* main.m in Sources */,
+				B60045D71A65EE3F0024A8D6 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B60045DF1A65EE3F0024A8D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B60045EA1A65EE3F0024A8D6 /* Vepsy_Web_BrowserTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B60045E51A65EE3F0024A8D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B60045CF1A65EE3F0024A8D6 /* Vepsy Web Browser */;
+			targetProxy = B60045E41A65EE3F0024A8D6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B60045DC1A65EE3F0024A8D6 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B60045DD1A65EE3F0024A8D6 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B60045EB1A65EE3F0024A8D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B60045EC1A65EE3F0024A8D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B60045EE1A65EE3F0024A8D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Vepsy Web Browser/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B60045EF1A65EE3F0024A8D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Vepsy Web Browser/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B60045F11A65EE3F0024A8D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Vepsy Web BrowserTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vepsy Web Browser.app/Contents/MacOS/Vepsy Web Browser";
+			};
+			name = Debug;
+		};
+		B60045F21A65EE3F0024A8D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Vepsy Web BrowserTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vepsy Web Browser.app/Contents/MacOS/Vepsy Web Browser";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B60045CB1A65EE3F0024A8D6 /* Build configuration list for PBXProject "Vepsy Web Browser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B60045EB1A65EE3F0024A8D6 /* Debug */,
+				B60045EC1A65EE3F0024A8D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B60045ED1A65EE3F0024A8D6 /* Build configuration list for PBXNativeTarget "Vepsy Web Browser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B60045EE1A65EE3F0024A8D6 /* Debug */,
+				B60045EF1A65EE3F0024A8D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B60045F01A65EE3F0024A8D6 /* Build configuration list for PBXNativeTarget "Vepsy Web BrowserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B60045F11A65EE3F0024A8D6 /* Debug */,
+				B60045F21A65EE3F0024A8D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B60045C81A65EE3F0024A8D6 /* Project object */;
+}
