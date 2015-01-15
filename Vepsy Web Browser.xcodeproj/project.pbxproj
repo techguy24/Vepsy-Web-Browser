@@ -12,6 +12,7 @@
 		B60045DB1A65EE3F0024A8D6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B60045DA1A65EE3F0024A8D6 /* Images.xcassets */; };
 		B60045DE1A65EE3F0024A8D6 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B60045DC1A65EE3F0024A8D6 /* MainMenu.xib */; };
 		B60045EA1A65EE3F0024A8D6 /* Vepsy_Web_BrowserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B60045E91A65EE3F0024A8D6 /* Vepsy_Web_BrowserTests.m */; };
+		B60045F41A65EF9A0024A8D6 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B60045F31A65EF9A0024A8D6 /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,7 @@
 		B60045E31A65EE3F0024A8D6 /* Vepsy Web BrowserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Vepsy Web BrowserTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B60045E81A65EE3F0024A8D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B60045E91A65EE3F0024A8D6 /* Vepsy_Web_BrowserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Vepsy_Web_BrowserTests.m; sourceTree = "<group>"; };
+		B60045F31A65EF9A0024A8D6 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B60045F41A65EF9A0024A8D6 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +61,7 @@
 		B60045C71A65EE3F0024A8D6 = {
 			isa = PBXGroup;
 			children = (
+				B60045F31A65EF9A0024A8D6 /* WebKit.framework */,
 				B60045D21A65EE3F0024A8D6 /* Vepsy Web Browser */,
 				B60045E61A65EE3F0024A8D6 /* Vepsy Web BrowserTests */,
 				B60045D11A65EE3F0024A8D6 /* Products */,
